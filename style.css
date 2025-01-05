@@ -1,3 +1,4 @@
+
 .homepage {
   background-color: #ffffff;
   display: flex;
@@ -30,7 +31,7 @@
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
-  font-family: "Sora-Bold", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 700;
   color: #322a44;
   font-size: 16px;
@@ -51,7 +52,7 @@
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
-  font-family: "Sora-Regular", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 400;
   color: #322a44;
   font-size: 16px;
@@ -80,8 +81,7 @@
   -webkit-background-clip: text !important;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  font-family: "Sora-Regular", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 400;
   color: transparent;
   font-size: 16px;
@@ -100,7 +100,7 @@
   position: absolute;
   top: 252px;
   left: 118px;
-  font-family: "Sora-SemiBold", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 600;
   color: #312943;
   font-size: 64px;
@@ -122,7 +122,7 @@
   width: 831px;
   top: 0;
   left: 0;
-  font-family: "Sora-Regular", Helvetica;
+  font-family: "Sora";
   font-weight: 400;
   color: #312943;
   font-size: 48px;
@@ -171,7 +171,7 @@
   position: absolute;
   top: 1270px;
   left: 118px;
-  font-family: "Sora-SemiBold", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 600;
   color: #322a44;
   font-size: 40px;
@@ -229,7 +229,7 @@
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
-  font-family: "Sora-SemiBold", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 600;
   color: #ffffff;
   font-size: 12px;
@@ -366,7 +366,7 @@
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
-  font-family: "Sora-Regular", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 400;
   color: #ffffff;
   font-size: 12px;
@@ -664,7 +664,7 @@
   position: relative;
   align-self: stretch;
   margin-top: -1.00px;
-  font-family: "Sora-SemiBold", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 600;
   color: #322a44;
   font-size: 16px;
@@ -675,7 +675,7 @@
 .homepage .text-wrapper-10 {
   position: relative;
   width: fit-content;
-  font-family: "Sora-Regular", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 400;
   color: #322a44;
   font-size: 16px;
@@ -722,7 +722,7 @@
   width: 691px;
   top: 111px;
   left: 374px;
-  font-family: "Sora-SemiBold", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 600;
   color: #322a44;
   font-size: 40px;
@@ -753,7 +753,7 @@
   position: absolute;
   top: 46px;
   left: 55px;
-  font-family: "Sora-SemiBold", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 600;
   color: #fff5f5;
   font-size: 40px;
@@ -767,7 +767,7 @@
   width: 610px;
   top: 56px;
   left: 509px;
-  font-family: "Sora-Regular", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 400;
   color: #fff5f5;
   font-size: 20px;
@@ -793,7 +793,7 @@
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
-  font-family: "Sora-Regular", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 400;
   color: #3d3d3d;
   font-size: 20px;
@@ -896,7 +896,7 @@
 }
 
 .homepage .span {
-  font-family: "Sora-Regular", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 400;
   color: #3d3d3d;
   font-size: 20px;
@@ -1031,7 +1031,7 @@
   position: absolute;
   top: 4512px;
   left: 118px;
-  font-family: "Sora-SemiBold", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 600;
   color: #3d3d3d;
   font-size: 40px;
@@ -1046,7 +1046,7 @@
   width: 137px;
   top: 4531px;
   left: 809px;
-  font-family: "Sora-Regular", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 400;
   color: #3d3d3d;
   font-size: 20px;
@@ -1082,7 +1082,7 @@
   width: fit-content;
   margin-top: -1.00px;
   opacity: 0.2;
-  font-family: "Sora-SemiBold", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 600;
   color: #fff5f5;
   font-size: 36px;
@@ -1123,7 +1123,7 @@
   position: relative;
   width: fit-content;
   margin-top: -0.46px;
-  font-family: "Sora-Regular", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 400;
   color: #fff5f5;
   font-size: 20px;
@@ -1224,7 +1224,7 @@
   position: relative;
   width: fit-content;
   margin-top: -1.00px;
-  font-family: "Sora-Regular", Helvetica;
+  font-family: "Sora", Helvetica;
   font-weight: 400;
   color: #fff5f5;
   font-size: 14px;
