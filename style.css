@@ -3,6 +3,10 @@ body{
   font-family: "Sora", Helvetica;
 }
 
+a {
+  color: #000;
+}
+
 .homepage {
   background-color: #ffffff;
   display: flex;
@@ -64,37 +68,50 @@ body{
   line-height: 24px;
   white-space: nowrap;
 }
+a:hover {
+  text-decoration: underline;
+}
 
 .homepage .frame-3 {
   display: inline-flex;
   align-items: center;
   gap: 2px;
+  padding: 1px 4px;
   position: relative;
+  background-color: #ffffff;
   flex: 0 0 auto;
+  border-radius: 40px;
+  border-color:#ff53ff;
 }
 
+
 .homepage .text-wrapper-3 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1.00px;
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  font-size: 20px;
+  font-weight: bold;
   background: linear-gradient(
     180deg,
     rgb(112.05, 48.52, 255) 0%,
-    rgb(255, 83.23, 255) 100%
-  );
+    rgb(255, 83.23, 255) 100%);
+
+  border-radius: 25px; /* Rounded radius */
+  cursor: pointer;
   -webkit-background-clip: text !important;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
   font-family: "Sora", Helvetica;
   font-weight: 400;
-  color: transparent;
   font-size: 16px;
   letter-spacing: 0;
   line-height: 24px;
   white-space: nowrap;
 }
-
+a:hover {
+  color: yellow;
+   font-size: 18px;
+ }
 .homepage .arrow-up-right {
   position: relative;
   width: 24px;
@@ -239,12 +256,17 @@ body{
 
 .homepage .groupm .zoom {
   padding: 50px;
-  background-color: green;
   transition: transform .2s; /* Animation */
   width: 200px;
   height: 200px;
   margin: 0 auto;
 }
+
+.nav-link:hover {
+  color: yellow;
+  font-size: 18px;
+}
+
 
 .homepage .groupm .zoom:hover {
   transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
@@ -749,6 +771,9 @@ body{
   line-height: 24px;
   white-space: nowrap;
 }
+a:hover {
+  color: #7031FF ;
+}
 
 .homepage .vuesax-outline-arrow {
   position: absolute;
@@ -832,13 +857,13 @@ body{
   width: 137px;
   height: 31px;
   font-family: "Sora", Helvetica;
-  font-weight: 400;
   color: #3d3d3d;
-  font-size: 20px;
   letter-spacing: 0;
   line-height: 30px;
-  text-decoration: underline;
   white-space: nowrap;
+}
+a:hover {
+  color: #7031FF ;
 }
 
 .homepage .frame-wrapper {
@@ -886,32 +911,13 @@ body{
   flex: 0 0 auto;
   border-radius: 30px;
 }
-
-.homepage .frame-19 {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4px 10px;
-  position: relative;
-  flex: 0 0 auto;
-  border-radius: 20px;
-  border: 2px solid;
-  border-color: transparent;
-  border-image: linear-gradient(
-      to bottom,
-      rgb(21.13, 120.91, 214.26),
-      rgb(163.98, 200.39, 255)
-    )
-    1;
-}
-
 .homepage .text-wrapper-13 {
   position: relative;
   width: fit-content;
   margin-top: -0.46px;
   font-family: "Sora", Helvetica;
   font-weight: 400;
-  color: #fff5f5;
+  background:#ffffff;
   font-size: 20px;
   text-align: center;
   letter-spacing: 0;
@@ -919,64 +925,73 @@ body{
   white-space: nowrap;
 }
 
-.homepage .vuesax-outline-arrow-2 {
-  position: relative;
-  width: 33.08px;
-  height: 33.08px;
+.homepage .frame-19 {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+ background: white;
+background-color: black;
+   border: 2px solid #1579D6;
+  border-radius: 25px; /* Rounded radius */
+  cursor: pointer;
+  }
+
+.frame-19:hover {
+  background-color: #1579D6;
+  text-decoration-color: white; 
 }
+
+
 
 .homepage .frame-20 {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  padding: 4px 10px;
-  position: relative;
-  flex: 0 0 auto;
-  border-radius: 20px;
-  border: 2px solid;
-  border-color: transparent;
-  border-image: linear-gradient(
-      to bottom,
-      rgb(255, 88.19, 166.03),
-      rgb(255, 178.15, 214.01)
-    )
-    1;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+background-color: black;
+   border: 2px solid #FF58A6;
+  border-radius: 25px; /* Rounded radius */
+  cursor: pointer;
+}
+.frame-20:hover {
+  background-color: #FF58A6; 
+  text-decoration-color: white; 
 }
 
 .homepage .frame-21 {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  padding: 4px 10px;
-  position: relative;
-  flex: 0 0 auto;
-  border-radius: 20px;
-  border: 2px solid;
-  border-color: transparent;
-  border-image: linear-gradient(
-      to bottom,
-      rgb(217.09, 35.28, 129.22),
-      rgb(255, 188.59, 95.62)
-    )
-    1;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+   border: 2px solid #e75026;
+  border-radius: 25px; /* Rounded radius */
+  cursor: pointer;
+}
+.frame-21:hover {
+  background-color: #e75026; 
+  text-decoration-color: white; 
 }
 
 .homepage .frame-22 {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  padding: 4px 10px;
-  position: relative;
-  flex: 0 0 auto;
-  border-radius: 20px;
-  border: 2px solid;
-  border-color: transparent;
-  border-image: linear-gradient(
-      to bottom,
-      rgb(19.47, 13.55, 13.55),
-      rgb(255, 255, 255)
-    )
-    1;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+   border: 2px solid #d8d8d8;
+  border-radius: 25px; /* Rounded radius */
+  cursor: pointer;
+}
+
+.frame-22:hover {
+  background-color: #d8d8d8; 
+  text-decoration-color: #d8d8d8; 
 }
 
 .homepage .frame-23 {
@@ -1001,8 +1016,8 @@ body{
 
 .homepage .img-4 {
   position: relative;
-  width: 12px;
-  height: 12px;
+  width: 24px;
+  height: 24px;
 }
 
 .homepage .text-wrapper-14 {
