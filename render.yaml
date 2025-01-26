@@ -1,4 +1,3 @@
 services:
   - type: web
     name: simple-html-css-js-site
-    build_command: ""  # No build command needed for static sites
