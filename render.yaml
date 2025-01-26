@@ -1,4 +1,5 @@
 services:
-  - name: simple-html-css-js-site
+  - type: web
+    name: simple-html-css-js-site
     static_publish_path: /
     build_command: ""  # No build command needed for static sites
