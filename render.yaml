@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: simple-html-css-js-site
+    name: neekita-portfolio
     env: static
     buildCommand: ''
     startCommand: ''
