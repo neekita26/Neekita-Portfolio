@@ -66,7 +66,12 @@ a {
   font-size: 16px;
   letter-spacing: 0;
   line-height: 24px;
+  background-color: transparent;
+  border: none;
   white-space: nowrap;
+}
+.text-wrapper-2:hover{
+  color: #ff53ff;
 }
 a:hover {
   text-decoration: underline;
