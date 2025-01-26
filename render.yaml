@@ -1,6 +1,7 @@
 services:
   - type: web
     name: simple-html-css-js-site
-    runtime: static
-    buildCommand: yarn build
-    staticPublishPath: ./build
+    env: static
+    buildCommand: ''
+    startCommand: ''
+    staticPublishPath: /public
