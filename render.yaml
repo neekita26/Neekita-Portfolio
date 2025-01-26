@@ -4,4 +4,4 @@ services:
     env: static
     buildCommand: ''
     startCommand: ''
-    staticPublishPath: /public
+    staticPublishPath: public
