@@ -110,8 +110,19 @@ a:hover {
 }
 a:hover {
   color: yellow;
-   font-size: 18px;
+   /* font-size: 18px; */
  }
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.hover-anim img{
+  transition: all 0.3s ease-in-out;
+}
+
+.hover-anim:hover img{
+  transform: scale(1.2);
+}
 .homepage .arrow-up-right {
   position: relative;
   width: 24px;
@@ -253,6 +264,14 @@ a:hover {
   left: 0;
   
 }
+.homepage .kirtipurapp {
+  position: absolute;
+  width: 486px;
+  height: 548px;
+  top: 4px;
+  left: 0;
+  
+}
 
 .homepage .groupm .zoom {
   padding: 50px;
@@ -311,8 +330,8 @@ a:hover {
   position: absolute;
   width: 488px;
   height: 552px;
-  top: 2507px;
-  left: 120px;
+  top: 1932px;
+  right: 120px;
   background-color: #444444;
   border-radius: 20px;
 }
@@ -453,14 +472,14 @@ a:hover {
 }
 
 .homepage .overlap-4 {
-  position: absolute;
-  width: 488px;
-  height: 552px;
-  top: 1936px;
-  left: 832px;
-  background-color: #e7e7e7;
-  border-radius: 20px;
-}
+    position: absolute;
+    width: 488px;
+    height: 552px;
+    top: 2507px;
+    left: 120px;
+    background-color: #444444;
+    border-radius: 20px;
+  }
 
 .homepage .group-7 {
   position: absolute;
@@ -546,6 +565,15 @@ a:hover {
   top: 0;
   left: 0;
 }
+
+.homepage .mock .zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
 
 .homepage .iphone-pro-front {
   position: absolute;
@@ -918,7 +946,7 @@ a:hover {
   font-family: "Sora", Helvetica;
   font-weight: 400;
   background:#ffffff;
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   letter-spacing: 0;
   line-height: 30px;
@@ -929,7 +957,6 @@ a:hover {
   display: inline-flex;
   align-items: center;
   padding: 8px 16px;
-  font-size: 16px;
   font-weight: bold;
  background: white;
 background-color: black;
@@ -1066,6 +1093,10 @@ background-color: black;
   letter-spacing: 0;
   line-height: 54px;
   white-space: nowrap;
+}
+.scroll-text {
+  display: inline-block;
+  animation: scroll 10s linear infinite; /* Smooth scrolling */
 }
 
 .homepage .group-13 {
@@ -1281,4 +1312,45 @@ background-color: black;
   height: 81px;
   top: 291px;
   left: 585px;
+}
+
+.frame-19 .text-wrapper-13 a{
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+.frame-19 .text-wrapper-13 {
+  background-color: transparent;
+  color: white;
+}
+
+.frame-20 .text-wrapper-13 a{
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+.frame-20 .text-wrapper-13 {
+  background-color: transparent;
+  color: white;;
+}
+
+.frame-21 .text-wrapper-13 a{
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+.frame-21 .text-wrapper-13 {
+  background-color: transparent;
+  color: white;
+}
+
+
+.frame-22 .text-wrapper-13 a{
+  text-decoration: none;
+  background-color: transparent;
+  color: white;
+}
+.frame-22 .text-wrapper-13 {
+  background-color: transparent;
+  color: white;
 }
